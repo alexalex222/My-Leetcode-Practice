@@ -16,7 +16,7 @@ public:
     }
 
     bool hasNext() {
-		return i < v.size();
+		return i < static_cast<int>(v.size());
     }
 };
 

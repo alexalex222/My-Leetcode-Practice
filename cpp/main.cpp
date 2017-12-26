@@ -58,6 +58,8 @@ using namespace std;
 
 
 int main() {
+    
+    cout<<"Start to test the algorithm..."<<endl;
 
     LFUCache LFUobj = LFUCache(0);
     LFUobj.set(0, 0);

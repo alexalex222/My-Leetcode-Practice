@@ -304,20 +304,20 @@ public:
 	*/
 	int romanToInt(string s) {
 		int val[255];
-		val['I'] = 1;
-		val['V'] = 5;
-		val['X'] = 10;
-		val['L'] = 50;
-		val['C'] = 100;
-		val['D'] = 500;
-		val['M'] = 1000;
+		val[static_cast<int>('I')] = 1;
+		val[static_cast<int>('V')] = 5;
+		val[static_cast<int>('X')] = 10;
+		val[static_cast<int>('L')] = 50;
+		val[static_cast<int>('C')] = 100;
+		val[static_cast<int>('D')] = 500;
+		val[static_cast<int>('M')] = 1000;
 
 		int num = 0;
 		for (size_t i = 0; i < s.length() - 1; i++) {
-			if (val[s[i]] < val[s[i + 1]]) num = num - val[s[i]];
-			else num += val[s[i]];
+			if (val[static_cast<int>(s[i])] < val[static_cast<int>(s[i + 1])]) num = num - val[static_cast<int>(s[i])];
+			else num += val[static_cast<int>(s[i])];
 		}
-		return num + val[s[s.length() - 1]];
+		return num + val[static_cast<int>(s[s.length() - 1])];
 	}
 
 	/*
@@ -933,7 +933,7 @@ public:
 				myMap[pattern[i]] = word;
 			}
 		}
-		return i == pattern.size();
+		return i == static_cast<int>(pattern.size());
 	}
 
 	string cas(string str) {
@@ -1367,7 +1367,7 @@ public:
 	}
 
 	int myAtoi(string str) {
-		return 0;
+		return static_cast<int>(str.length());
 	}
 
 	int singleNumber(vector<int>& nums) {
@@ -1927,7 +1927,7 @@ public:
 	}
 
 	void dfsCombinationSum3(vector<vector<int>>& result, int start, int sum, vector<int>& list, int k) {
-		if (sum == 0 && list.size() == k) result.push_back(list);
+		if (sum == 0 && static_cast<int>(list.size()) == k) result.push_back(list);
 
 		for (int i = start; i <= 9; i++) {
 			if (sum - i < 0) break;
@@ -1962,7 +1962,7 @@ public:
 	}
 
 	void dfsCombine(vector<vector<int>>& result, vector<int>& list, int n, int k, int level) {
-		if (list.size() == k) {
+		if (static_cast<int>(list.size()) == k) {
 			result.push_back(list);
 			return;
 		}
@@ -2056,7 +2056,7 @@ public:
 	}
 
 	void dfsLetterCombinations(vector<string>& result, string& oneComb, string trans[], string digits, int dialed) {
-		if (dialed == digits.size()) {
+		if (dialed == static_cast<int>(digits.size())) {
 			result.push_back(oneComb);
 			return;
 		}
@@ -3830,7 +3830,7 @@ public:
 		vector<string> result;
 		for (int hour = 0; hour < 12; hour++) {
 			for (int minute = 0; minute < 60; minute++) {
-				if (bitset<10>(hour).count() + bitset<10>(minute).count() == num) {
+				if (static_cast<int>(bitset<10>(hour).count() + bitset<10>(minute).count()) == num) {
 					string time = to_string(hour) + ":";
 					if (minute < 10) {
 						time = time + "0" + to_string(minute);

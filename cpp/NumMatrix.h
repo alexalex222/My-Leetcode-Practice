@@ -17,7 +17,7 @@ public:
 	}
 
 	void update(int row, int col, int val) {
-		for (int i = col + 1; i < (sumMatrix[0].size()); i++) {
+		for (int i = col + 1; i < static_cast<int>(sumMatrix[0].size()); i++) {
 			sumMatrix[row][i] = sumMatrix[row][i] + val - myMatrix[row][col];
 		}
 		myMatrix[row][col] = val;

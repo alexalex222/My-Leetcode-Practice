@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BE12EA57A65EA11B393AA16E /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "cpp" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		81094BB43A13BDBE562DB9CB /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 01DF06677B4679B908CF0CAB /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA21EFC81FF2A7A300587AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE12EA57A65EA11B393AA16E;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DF06677B4679B908CF0CAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/main.cpp"; sourceTree = "<absolute>"; };
+		0E7749FD7AD20F8AEBAA8DE6 /* Answer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Answer.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Answer.h"; sourceTree = "<absolute>"; };
+		0F2BF7685D35C2882F50CE5E /* PeekingIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PeekingIterator.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/PeekingIterator.h"; sourceTree = "<absolute>"; };
+		1048658C4E694343ED37AE8A /* LRUCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LRUCache.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/LRUCache.h"; sourceTree = "<absolute>"; };
+		2A18E9308EA05C3C7994A27E /* BSTIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BSTIterator.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/BSTIterator.h"; sourceTree = "<absolute>"; };
+		2B0657989F3062E93772E656 /* MovingAverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MovingAverage.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/MovingAverage.h"; sourceTree = "<absolute>"; };
+		3347C013D4F93448DA27A7B5 /* cpp.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = cpp.pro; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/cpp.pro"; sourceTree = "<absolute>"; };
+		34069CBAB6E5B631984250F6 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/.qmake.stash"; sourceTree = "<absolute>"; };
+		390068F406AD59AE1EC03AC5 /* WordDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WordDictionary.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/WordDictionary.h"; sourceTree = "<absolute>"; };
+		3A77F903E3C77148A09900CD /* ValidWordAbbr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ValidWordAbbr.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/ValidWordAbbr.h"; sourceTree = "<absolute>"; };
+		3CC8ACBA323C628CBEF5B7F2 /* HitCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HitCounter.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/HitCounter.h"; sourceTree = "<absolute>"; };
+		436446F3F5A1D4D164BCADF5 /* StackQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StackQueue.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/StackQueue.h"; sourceTree = "<absolute>"; };
+		4B4E064AB0836C06C8C97B3B /* Twitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Twitter.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Twitter.h"; sourceTree = "<absolute>"; };
+		4B97893E1A523E6EEA51A610 /* Permutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Permutation.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Permutation.h"; sourceTree = "<absolute>"; };
+		61FEE6D30CEEB459CA08F174 /* MinStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MinStack.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/MinStack.h"; sourceTree = "<absolute>"; };
+		7E64CFF9C4737CEBE7E4D66C /* ZigzagIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZigzagIterator.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/ZigzagIterator.h"; sourceTree = "<absolute>"; };
+		80B449F4C320B35509BB10A1 /* NumMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NumMatrix.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/NumMatrix.h"; sourceTree = "<absolute>"; };
+		885DD0AC04FB91F903AF5E6C /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Logger.h"; sourceTree = "<absolute>"; };
+		8894C6BFC7F70AC8B38973FB /* RandomizedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RandomizedSet.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/RandomizedSet.h"; sourceTree = "<absolute>"; };
+		939198178F9D33542EADFB5D /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Calculator.h"; sourceTree = "<absolute>"; };
+		9B4CFAEB1FAD524A0DCBC5B4 /* Trie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Trie.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Trie.h"; sourceTree = "<absolute>"; };
+		A8D9397A72BB6F44279CC26D /* ConstructBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConstructBinaryTree.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/ConstructBinaryTree.h"; sourceTree = "<absolute>"; };
+		ADD39207C50D8B0265074805 /* RangeSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RangeSum.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/RangeSum.h"; sourceTree = "<absolute>"; };
+		B89FEDC5A8C87FFF70CA5685 /* TicTacToe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TicTacToe.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/TicTacToe.h"; sourceTree = "<absolute>"; };
+		BDED1C5F8A59746268AAB2B0 /* PhoneDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PhoneDirectory.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/PhoneDirectory.h"; sourceTree = "<absolute>"; };
+		BEBDDB18DD5522A130322C66 /* NestedInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NestedInteger.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/NestedInteger.h"; sourceTree = "<absolute>"; };
+		C9283BABB15F0FA7CA159E21 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACB8B2B9A334DE258D22589 /* QueueStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QueueStack.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/QueueStack.h"; sourceTree = "<absolute>"; };
+		CC2E785A42A32B1067B35A27 /* Codec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Codec.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Codec.h"; sourceTree = "<absolute>"; };
+		CD5432D9C1955B0A0D4CC6D7 /* Read4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Read4.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Read4.h"; sourceTree = "<absolute>"; };
+		D9C5213117D4DACED7CED1F6 /* Vector2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vector2D.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/Vector2D.h"; sourceTree = "<absolute>"; };
+		E4C576CE542E7116971FF078 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TwoSum.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/TwoSum.h"; sourceTree = "<absolute>"; };
+		E6610DE5C581A6B5EBFD5F68 /* NumArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NumArray.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/NumArray.h"; sourceTree = "<absolute>"; };
+		EB4D44C3652D55FA2AED831D /* MedianFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MedianFinder.h; path = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/MedianFinder.h"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01DF06677B4679B908CF0CAB /* main.cpp */,
+				0E7749FD7AD20F8AEBAA8DE6 /* Answer.h */,
+				2A18E9308EA05C3C7994A27E /* BSTIterator.h */,
+				939198178F9D33542EADFB5D /* Calculator.h */,
+				CC2E785A42A32B1067B35A27 /* Codec.h */,
+				A8D9397A72BB6F44279CC26D /* ConstructBinaryTree.h */,
+				3CC8ACBA323C628CBEF5B7F2 /* HitCounter.h */,
+				885DD0AC04FB91F903AF5E6C /* Logger.h */,
+				1048658C4E694343ED37AE8A /* LRUCache.h */,
+				EB4D44C3652D55FA2AED831D /* MedianFinder.h */,
+				61FEE6D30CEEB459CA08F174 /* MinStack.h */,
+				2B0657989F3062E93772E656 /* MovingAverage.h */,
+				BEBDDB18DD5522A130322C66 /* NestedInteger.h */,
+				E6610DE5C581A6B5EBFD5F68 /* NumArray.h */,
+				80B449F4C320B35509BB10A1 /* NumMatrix.h */,
+				0F2BF7685D35C2882F50CE5E /* PeekingIterator.h */,
+				4B97893E1A523E6EEA51A610 /* Permutation.h */,
+				BDED1C5F8A59746268AAB2B0 /* PhoneDirectory.h */,
+				CACB8B2B9A334DE258D22589 /* QueueStack.h */,
+				8894C6BFC7F70AC8B38973FB /* RandomizedSet.h */,
+				ADD39207C50D8B0265074805 /* RangeSum.h */,
+				CD5432D9C1955B0A0D4CC6D7 /* Read4.h */,
+				436446F3F5A1D4D164BCADF5 /* StackQueue.h */,
+				B89FEDC5A8C87FFF70CA5685 /* TicTacToe.h */,
+				9B4CFAEB1FAD524A0DCBC5B4 /* Trie.h */,
+				4B4E064AB0836C06C8C97B3B /* Twitter.h */,
+				E4C576CE542E7116971FF078 /* TwoSum.h */,
+				3A77F903E3C77148A09900CD /* ValidWordAbbr.h */,
+				D9C5213117D4DACED7CED1F6 /* Vector2D.h */,
+				390068F406AD59AE1EC03AC5 /* WordDictionary.h */,
+				7E64CFF9C4737CEBE7E4D66C /* ZigzagIterator.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3347C013D4F93448DA27A7B5 /* cpp.pro */,
+				34069CBAB6E5B631984250F6 /* .qmake.stash */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9283BABB15F0FA7CA159E21 /* cpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A7E144965CD06C49AF701DC /* cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "cpp" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD4B08F67C348A1776EFADE /* PBXTargetDependency */,
+			);
+			name = cpp;
+			productName = cpp;
+			productReference = C9283BABB15F0FA7CA159E21 /* cpp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					8A7E144965CD06C49AF701DC = {
+						DevelopmentTeam = 394Z8Q4BH6;
+					};
+					BE12EA57A65EA11B393AA16E = {
+						DevelopmentTeam = 394Z8Q4BH6;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "cpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* cpp */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A7E144965CD06C49AF701DC /* cpp */,
+				BE12EA57A65EA11B393AA16E /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C '/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/' -f cpp.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C '/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/' -f cpp.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81094BB43A13BDBE562DB9CB /* main.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD4B08F67C348A1776EFADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE12EA57A65EA11B393AA16E /* Qt Preprocess */;
+			targetProxy = AA21EFC81FF2A7A300587AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 394Z8Q4BH6;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"../../../anaconda3/mkspecs/macx-clang",
+				);
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+				);
+				PRODUCT_NAME = cpp;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 394Z8Q4BH6;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"../../../anaconda3/mkspecs/macx-clang",
+				);
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+				);
+				PRODUCT_NAME = cpp;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = "/Users/kuilinchen/My Code/My-Leetcode-Practice/cpp/";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 394Z8Q4BH6;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = cpp;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 394Z8Q4BH6;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = cpp;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

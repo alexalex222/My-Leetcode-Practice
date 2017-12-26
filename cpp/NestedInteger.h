@@ -121,11 +121,11 @@ public:
 
 	void helper(NestedInteger &ni, int depth, vector<vector<int>> &v) {
 		vector<int> t;
-		if (depth < v.size()) t = v[depth];
+		if (depth < static_cast<int>(v.size())) t = v[depth];
 		else v.push_back(t);
 		if (ni.isInteger()) {
 			t.push_back(ni.getInteger());
-			if (depth < v.size()) v[depth] = t;
+			if (depth < static_cast<int>(v.size())) v[depth] = t;
 			else v.push_back(t);
 		}
 		else {
