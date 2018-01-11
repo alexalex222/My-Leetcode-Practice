@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp">
+				<Option output="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp/fast">
+				<Option output="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Answer.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/BSTIterator.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Calculator.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Codec.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/ConstructBinaryTree.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/HitCounter.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/LRUCache.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Logger.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/MedianFinder.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/MinStack.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/MovingAverage.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/NestedInteger.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/NumArray.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/NumMatrix.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/PeekingIterator.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Permutation.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/PhoneDirectory.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/QueueStack.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/RandomizedSet.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/RangeSum.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Read4.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/StackQueue.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/TicTacToe.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Trie.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Twitter.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/TwoSum.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/ValidWordAbbr.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/Vector2D.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/WordDictionary.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/ZigzagIterator.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/main.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/kuilinchen/Repositories/My-Leetcode-Practice/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
