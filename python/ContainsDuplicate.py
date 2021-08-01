@@ -20,11 +20,15 @@ class Solution:
     # @param {integer} k
     # @return {boolean}
     def containsNearbyDuplicate(self, nums, k):
-        n = len(nums)
-        for i in range(n):
-            for j in range(i+1, n):
-                if nums[i] == nums[j]:
-                    k_temp = j - i
-                    if k_temp <= k:
-                        return True
+        num_pos_dict = dict()
+
+        for i in range(len(nums)):
+            if nums[i] not in num_pos_dict:
+                num_pos_dict[nums[i]] = i
+            else:
+                if i - num_pos_dict[nums[i]] <= k:
+                    return True
+                else:
+                    num_pos_dict[nums[i]] = i
+        
         return False

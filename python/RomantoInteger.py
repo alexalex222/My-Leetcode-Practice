@@ -7,20 +7,22 @@ Created on Sat Mar 21 13:35:03 2015
 
 class Solution:
     # @return an integer
-    def romanToInt(self, s):
-        rome_tup = ('I','V','X', 'L', 'C', 'D', 'M')
-        num_tup = (1, 5, 10, 50, 100, 500, 1000)
-        num = 0
+    def romanToInt(self, s: str) -> int:
+        rom_dict = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        total_num = 0
         current_num = 0
-        length = len(s)
-        for i in range(length-1):
-            current_num = num_tup[rome_tup.index(s[i])]
-            if num_tup[rome_tup.index(s[i])] < num_tup[rome_tup.index(s[i+1])]:
-                num = num - current_num
+        
+        for i in range(len(s) - 1):
+            current_num = rom_dict[s[i]]
+            if rom_dict[s[i]] < rom_dict[s[i + 1]]:
+                total_num -= current_num
             else:
-                num = num + current_num
-        num = num + num_tup[rome_tup.index(s[length-1])]
-        return num
+                total_num += current_num
+        
+        total_num += rom_dict[s[-1]]
+        return total_num
+
+        
         
     # @return a string
     def intToRoman(self, num):
