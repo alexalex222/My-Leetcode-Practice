@@ -1,34 +1,20 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 29 20:49:36 2015
-
-@author: Kuilin
-"""
-
 class Solution:
-    # @param {integer} x
-    # @return {boolean}
-    def isPalindrome(self, x):
-        if x < 0 :
+    def isPalindrome(self, x: int) -> bool:
+        # Special cases:
+        # As discussed above, when x < 0, x is not a palindrome.
+        # Also if the last digit of the number is 0, in order to be a palindrome,
+        # the first digit of the number also needs to be 0.
+        # Only 0 satisfy this property.
+        if(x < 0) or (x % 10 == 0 and x != 0):
             return False
-        div = 1
-        while x//div >= 10:
-            div = div *10
-        while x > 0:
-            right = x // div
-            left =  x % 10
-            
-            if (right != left):
-                return False
         
-            x = (x % div) // 10
-            div = div / 100
-        return True
+        reverted_number = 0
+        while(x > reverted_number):
+            reverted_number = reverted_number * 10 + x % 10
+            x = x // 10
+        
+        return ((x == reverted_number) or (x == reverted_number // 10))
 
-mysol = Solution()
-a = 12321
-isPa = mysol.isPalindrome(a)
-        
         
 
             

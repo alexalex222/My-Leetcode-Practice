@@ -1,41 +1,33 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 21 13:35:03 2015
-
-@author: Kuilin
-"""
-
 class Solution:
-    # @return an integer
     def romanToInt(self, s: str) -> int:
-        rom_dict = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-        total_num = 0
-        current_num = 0
+        roman_int_dict = {
+            'I': 1,
+            'V': 5,
+            'X': 10,
+            'L': 50,
+            'C': 100,
+            'D': 500,
+            'M': 1000
+        }
+        result_int = 0
+        prev_char = None
+        prev_val = 99999999
+        for curr_char in s:
+            curr_val = roman_int_dict[curr_char]
+            if prev_char:
+                prev_val = roman_int_dict[prev_char]             
         
-        for i in range(len(s) - 1):
-            current_num = rom_dict[s[i]]
-            if rom_dict[s[i]] < rom_dict[s[i + 1]]:
-                total_num -= current_num
+            if curr_val <= prev_val:
+                result_int += curr_val
             else:
-                total_num += current_num
-        
-        total_num += rom_dict[s[-1]]
-        return total_num
+                result_int += curr_val - 2 * prev_val
 
+            prev_char = curr_char
         
-        
-    # @return a string
-    def intToRoman(self, num):
-        romenum = ''
-        num_tup = ( 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 )
-        rome_tup = [ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" ]
-        for i in range(len(rome_tup)):
-            while num >= num_tup[i]:
-                num = num - num_tup[i]
-                romenum = romenum + rome_tup[i]
-        return romenum
+        return result_int
 
-obj = Solution()
 
-num = 1
-romenum = obj.intToRoman(num)
+if __name__ == '__main__':
+    s = Solution()
+    i = s.romanToInt("MCMXCIV")
+    print(i)
