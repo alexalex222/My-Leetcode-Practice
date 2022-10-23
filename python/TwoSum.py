@@ -1,10 +1,11 @@
-# %%
+from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        values = {}
-        for index, num in enumerate(nums):
-            remaining = target - num
-            if remaining in values:
-                return [index, values[remaining]]
+        value_pairs = {}
+        for idx, num in enumerate(nums):
+            residual = target - num
+            if residual in value_pairs:
+                return idx, value_pairs[residual]
             else:
-                values[num] = index
+                value_pairs[num] = idx
